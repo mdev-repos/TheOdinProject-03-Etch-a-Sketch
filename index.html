@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Etch-a-Sketch Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header-container">
+            <h1 id="app-title">Etch-a-Sketch App</h1>
+            <h2 id="app-subtitle">Create what you dream</h2>
+        </header>
+        <main id="main-container">
+            <div id="tools-container">
+                <div id="tools-pen">
+                    <h3 id="pen-title">Pen</h3>
+                    <button class="btn" id="black-pen">Black</button>
+                    <button class="btn" id="rainbow-pen">Rainbow</button>
+                </div>
+                <div id="tools-grid">
+                    <h3 id="grid-title">Grid Size</h3>
+                    <button class="btn" id="simple-size">16x16</button>
+                    <button class="btn" id="double-size">32x32</button>
+                    <button class="btn" id="triple-size">64x64</button>
+                </div>
+            </div>
+            <div id="grid-container"></div>
+        </main>
+        <footer id="footer-container">
+            <h2 id="footer-content">The Odin Project - 2024 - mdev</h2>
+        </footer>
+        <!-- JS link -->
+        <script src="app.js"></script>
+    </body>
+</html>
